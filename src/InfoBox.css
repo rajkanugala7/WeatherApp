@@ -1,0 +1,26 @@
+.InfoBox{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+
+}
+.InfoCard{
+
+    width: 330px;
+    height: 500px;
+  
+  border-radius: 30px;
+  background-color: #5297b0; /* Change the background color of the card */
+  color: #333333;
+}
+
+
+.InfoCard .MuiTypography-root {
+  color: #666666; /* Change the color of the Typography components */
+}
+
+.InfoCard .MuiTypography-root b {
+  color: #053947d3;
+  font-size:larger; /* Change the color of the bold text */
+}
